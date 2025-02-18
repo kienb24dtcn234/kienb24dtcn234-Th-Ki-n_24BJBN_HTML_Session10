@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container {
+    background-color: #f1f3f7;
+}
+
+.content {
+    position: relative;
+}
+
+.img img {
+    width: 100%;
+    height: 400px;
+}
+
+.content button {
+    width: 100px;
+    background: none;
+    border: 2px solid white;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    top: 20px;
+    left: 30px;
+}
+
+.text {
+    width: 600px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
+
+.text p {
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.text h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.dieu-huong {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+
+.dieu-huong button {
+    border: none;
+    width: 30px;
+    color: rgb(194, 194, 194);
+}
+
+.dieu-huong button:nth-of-type(1) {
+    width: 50px;
+    height: 30px;
+    background-color: #bab8b8;
+    color: white;
+}
+
+.dieu-huong button:nth-of-type(6) {
+    width: 50px;
+    height: 30px;
+    background-color: #bab8b8;
+    color: white;
+}
+
+.dieu-huong span {
+    text-align: center;
+}
+
+.dieu-huong button:hover {
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.dieu-huong button:nth-of-type(1):hover {
+    width: 50px;
+    height: 30px;
+    border-radius: 0;
+    background-color: #000000;
+    color: white;
+}
+
+.dieu-huong button:nth-of-type(6):hover {
+    width: 50px;
+    height: 30px;
+
+    border-radius: 0;
+    background-color: #000000;
+    color: white;
+}

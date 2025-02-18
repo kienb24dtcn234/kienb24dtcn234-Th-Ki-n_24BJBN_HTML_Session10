@@ -1,0 +1,35 @@
+.container{
+    background-color: rgb(206, 197, 197);
+    padding: 30px;
+    text-align: center;
+}
+h1{
+    display: inline;
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 100px;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    color: rgb(171, 164, 164);
+    text-align: center;
+    margin-right: 20px;
+}
+.search{
+    display: inline;
+    margin-left: 100px;
+}
+button{
+    background-color: rgb(166, 160, 160);
+    color: rgb(13, 12, 12);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.home{
+    color: black;
+}
